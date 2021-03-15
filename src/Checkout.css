@@ -1,0 +1,51 @@
+.checkout {
+  padding: 20px;
+}
+
+.checkout__main {
+  display: flex;
+  justify-content: space-evenly;
+  height: max-content;
+  margin-top: 25px;
+}
+.checkout__left {
+  width: 900px;
+  background-color: white;
+  padding: 20px;
+  margin-right: 10px;
+}
+.checkout__right {
+  width: 300px;
+  height: fit-content;
+  background-color: white;
+  padding: 20px;
+  margin-left: 10px;
+}
+.checkout__ad {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.checkout__adAmazonPay {
+  color: rgba(177, 45, 45, 0.781);
+}
+
+.checkout__title {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.checkout__subtotal {
+  float: right;
+  margin-right: 10px;
+  font-size: 17px;
+}
+
+.checkout__email{
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
