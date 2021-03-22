@@ -9,14 +9,16 @@
   margin-top: 25px;
 }
 .checkout__left {
-  width: 900px;
+  flex: 0.7;
+  width: 100%;
   background-color: white;
   padding: 20px;
   margin-right: 10px;
 }
 .checkout__right {
-  width: 300px;
-  height: fit-content;
+  flex: 0.3;
+  height: max-content;
+  width: fit-content;
   background-color: white;
   padding: 20px;
   margin-left: 10px;
@@ -44,7 +46,7 @@
   font-size: 17px;
 }
 
-.checkout__email{
+.checkout__email {
   margin-left: 10px;
   font-size: 18px;
   font-weight: 500;

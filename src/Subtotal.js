@@ -3,8 +3,10 @@ import './Subtotal.css'
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 import { useStateValue } from './StateProvider';
 import RenderSubtotal from './RenderSubtotal';
+import { useHistory } from 'react-router';
 
 function Subtotal() {
+    const history = useHistory();
     const [{cart}, dispatch] = useStateValue();
 
     //console.log(cart[0].price)
@@ -35,7 +37,7 @@ function Subtotal() {
                 
             </div>
 
-            <button className="subtotal__proceedButton"> Proceed to Buy</button>
+            <button className="subtotal__proceedButton" onClick={e => history.push('./payment')}> Proceed to Buy</button>
             
         </div>
     )
